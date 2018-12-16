@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird">
+      <UniqueIdentifier>{3575586c-5d27-4783-807a-f1efd1e002d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\实体">
+      <UniqueIdentifier>{e5c66465-f403-4ff0-9e4a-0b4740271d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\实体\主角">
+      <UniqueIdentifier>{c0351c2a-0921-4e63-bb4c-f078f31831b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\场景">
+      <UniqueIdentifier>{91c93d17-9fc4-44d7-8830-8b2a82b0352d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\场景\关卡场景">
+      <UniqueIdentifier>{25671b65-e4a0-4c90-960c-770e23d5eaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\实体\barrier">
+      <UniqueIdentifier>{0fbfca3a-e6d8-499a-88a4-c787c39ce25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\管理器">
+      <UniqueIdentifier>{9ee643fd-2919-4dc0-8ef9-48d90ed909e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flappyBird\管理器\障碍物管理器">
+      <UniqueIdentifier>{47ab3bb6-12e8-46d7-98f7-be12191a3aaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp" />
+    <ClCompile Include="..\Classes\Player.cpp" />
+    <ClCompile Include="..\Classes\startScene.cpp" />
+    <ClCompile Include="..\Classes\TollgateScene.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\barrier.cpp" />
+    <ClCompile Include="..\Classes\barrierManager.cpp" />
+    <ClCompile Include="..\Classes\Entity.cpp" />
+    <ClCompile Include="..\Classes\gameOverScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h" />
+    <ClInclude Include="..\Classes\Player.h" />
+    <ClInclude Include="..\Classes\resource.h" />
+    <ClInclude Include="..\Classes\startScene.h" />
+    <ClInclude Include="..\Classes\TollgateScene.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\barrier.h" />
+    <ClInclude Include="..\Classes\barrierManager.h" />
+    <ClInclude Include="..\Classes\Entity.h" />
+    <ClInclude Include="..\Classes\gameOverScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\MainScene.csb">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Scene1.csb">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="C:\Users\lenovo\Desktop\NewUi\Export\NewUi_1\NewUi_1.ExportJson">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="C:\Users\lenovo\Desktop\NewUi\Export\NewUi_1\NewUi0.plist">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\button_play.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\land.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\title.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\day.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bird1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\NewUi\Export\NewUi_1\NewUi0.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\jump.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
